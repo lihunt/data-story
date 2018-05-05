@@ -3,6 +3,10 @@ html {
   font-family: 'Open Sans', sans-serif; /* this should be the rest of the output you got from Google fonts */
   background-color: #00539F;
 }
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
 p {
   color: red;
   width: 500px;
