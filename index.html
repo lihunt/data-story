@@ -12,38 +12,41 @@
 	<article>
 <header>
 		<h1 class="headline">You Can Finally Encrypt Slack Messages</h1>
-		<div class="byline">
+	</header>
+		<img src="images/slack.jpeg" alt="slack background with lock icon">
+				<div class="byline">
 		    <address class="author">By <a rel="author" href="https://twitter.com/AlJohri">Lorenzo Franceschi-Bicchierai</a></address> 
 		    on <time pubdate datetime="2018-05-05" title="May 6th, 2018">5/6/2018</time>
 		</div>
-	</header>
-		<img src="images/slack.jpeg" alt="slack background with lock icon">
 
-	<p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean posuere finibus neque nec vulputate. Vivamus tristique, leo vitae ultricies efficitur, urna arcu efficitur erat, at consectetur augue urna id ex. Fusce eleifend, metus a posuere varius, magna metus pharetra turpis, in imperdiet sapien magna in mauris. Aliquam egestas congue auctor. Nunc consectetur a ipsum in mattis. Nullam velit risus, ultrices ac erat in, hendrerit vestibulum massa. Donec nec enim sed ex vehicula pretium vitae nec urna. Ut ullamcorper facilisis est, eget feugiat tellus porta rutrum. Mauris tortor purus, euismod ac dolor et, sollicitudin ullamcorper metus. Donec eu mollis nisl.</p>
+	<p>Have you ever worried that your boss may be reading your secret Slack channel where you share cat memes? Or perhaps you don’t trust that high school friend who created a Slack to talk about sports not to read your direct messages?</p>
 
-<p id="mainquote" class="quote"> "Web development is cool" - Bill Joe Smith </p>
 
-<p>
-Sed elit ipsum, vulputate eu nisi eu, laoreet semper quam. Mauris at condimentum erat. Duis pharetra vitae neque aliquam scelerisque. Pellentesque at leo at est semper malesuada. Donec odio mauris, varius bibendum suscipit id, dapibus non felis. Morbi interdum massa magna, non semper dui scelerisque eget. Quisque vehicula sed dui eu faucibus. Sed ut eleifend sapien. Pellentesque quis nunc felis. Suspendisse volutpat mattis tellus vel facilisis.</p>
+<p class="quote"> "Shhlack is an experiment and an ongoing project, definitely not for production, at the moment, but with a very specific goal in mind: An easy-to-use solution for passing private messages without too much worries."</p>
+
+<p>Of course, there are a lot of apps these days that allow for end-to-end encrypted communications, meaning that messages are scrambled in a way that no one other than the people in the conversation can read. There’s Signal, Wire, Wickr, and plenty of others. But as we noted in 2015, there's no native tool to encrypt messages on Slack. </p>
 
   <div id="dummy-bubble-chart-container">
   	<h2>Bubble Chart Dummy Headline</h2>
   	<h4>This is the subheadline, also known as a Dek</h4>
   </div>
 
-  <div id="dummy-line-chart-container"></div>
+  <p>We’ve got some good news for you. Someone finally made a tool that runs on top of Slack and encrypts messages, making them readable only by the sender and their intended recipient or recipients. The tool, called Shhlack, was created by information security consulting firm MindedSecurity and is available as a browser extension or a patch for the Slack app. </p>
 
-<p class="quote"> "Web development is cool" - Bill Joe Smith </p>
 
-<p>Proin elementum enim in risus tincidunt scelerisque. Nullam id lorem ac mi efficitur imperdiet at eu mi. Aliquam vitae tortor in lacus semper lacinia quis ut metus. In ultricies, tellus nec ullamcorper imperdiet, magna nunc dictum lacus, non aliquet leo nulla ac quam. Ut porta accumsan convallis. Etiam eu orci id dolor dapibus fringilla id quis enim. Donec eget pellentesque mi, vitae commodo dolor. Nunc in dui a ante finibus dictum vitae vitae turpis. Fusce nec arcu suscipit, suscipit dui ut, vehicula nunc.</p>
+  <div id="dummy-line-chart-container">
+  	<h2>Line Chart Dummy Headline</h2>
+  	<h4>This is the subheadline, also known as a Dek</h4>
+  </div>
 
-<p class="quote"> "JavaScript is the language of web browsers" - John Doe </p>
+<p>The tool relies on CryptoJS, a JavaScript library of encryption standards, as Di Paola explained in a blog post introducing Shhlack. It’s also not quite as easy to use—nor as secure—as other encrypted messaging tools at the moment. Unlike Signal or other end-to-end encrypted chat apps, Shhlack works with so-called Pre-Shared Keys or PSK, meaning the tool doesn’t manage encryption keys for you. You and your friends will have to do that. That means you will need to share the encryption key, in the form of a passphrase, with each other before you start your first encrypted Slack chat. (Don’t do this over Slack, as that will completely negate the purpose of using Shhlack—instead, try sharing your passphrase via Signal, or even better, in meatspace.)</p>
 
-<p>Nam magna arcu, mollis id volutpat a, consectetur nec quam. Aliquam tempus interdum enim, sed posuere tortor aliquam nec. Etiam ornare orci est, ut scelerisque sem bibendum non. In hac habitasse platea dictumst. Sed ac tincidunt felis. Aliquam fringilla feugiat hendrerit. Morbi quis urna vel ipsum commodo porta. Etiam tristique metus in nibh semper suscipit.</p>
+<p class="quote"> "We built the tool for protecting specific messages from being logged by Slack and being exported in cleartext."</p>
 
-<p>Vivamus tellus nisl, pulvinar nec dapibus quis, pulvinar ac sapien. Quisque eu est lectus. Sed semper pellentesque accumsan. Sed felis quam, ullamcorper sit amet nulla ut, ultrices semper lacus. Phasellus risus neque, consequat vitae congue ac, fringilla quis leo. Cras pharetra hendrerit purus et commodo. Vivamus rhoncus urna eu est porta, id congue risus pharetra. </p>
+
+<p>Right now, Shhlack is available as a Chrome extension, and this the simplest way to use it. But keep in mind that this only allows you to encrypt messages if you use Slack within your Chrome browser. You can also install it as a patch for the Slack app for Windows, Mac, and Linux, following the instructions provided by Di Paola on the Shhlack GitHub project page.</p>
+
 </article>
 
 <!-- JS -->
